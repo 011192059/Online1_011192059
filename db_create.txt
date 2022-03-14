@@ -1,0 +1,3 @@
+create database Airplane_Management;
+create table Ticket_booking ( id INT(10) AUTO_INCREMENT,
+ name char(30), appt_date char(20), from_location char(40), to_location char(40), status char(30), PRIMARY KEY(id));
